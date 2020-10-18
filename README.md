@@ -120,8 +120,11 @@ public class PC {
 
 ### 实验过程
 1.首先进行框架设计，在Test主类下有CPU.HardDisk.PC三个分类，主类从分类中调取参数并设计和调用显示参数show()从而达到显示CPU速度以及硬盘容量的目的。
+
 2.创建CPU类，创建参数speed,并创建方法getSpeed,用于之后为speed赋值。
+
 3.创建HardDisk类，创建参数amount，创建方法getAmount,之后赋值。
+
 4.创建PC类，同上创建参数amount,之后赋值。
 
 ### 实验方法
